@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+header 
+{
+    background-color: seashell;
+    padding: 5px 0;
+    position:inherit;
+    border-bottom: 2px solid #FFB320;
+	alignment-baseline: center;
+}
+
+body
+{
+	background-color: aliceblue;
+}
+
+.row:after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column 
+{
+  float: left;
+  width: 33.33%;
+  padding: 1px;
+  height: 450px;
+}

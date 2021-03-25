@@ -1,0 +1,50 @@
+header 
+{
+    background-color: seashell;
+    padding: 10px 0;
+    position: relative;
+    border-bottom: 5px solid #FFB320;
+}
+
+body
+{
+	background-color: aliceblue;
+}
+
+
+.column 
+{
+  float: left;
+  width:50%;
+  padding: 10px;
+  height: 450px;
+  align-content: space-between;
+}
+
+.row:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+  align:center;
+}
+
+.img
+{
+	position:inherit;
+}
+
+
+table,th 
+{
+  border: 1px solid black;
+  width:auto;
+  text-align:center;
+}
+
+td 
+{
+  border: 1px solid black;
+  width:auto;
+  text-align: left;
+}
